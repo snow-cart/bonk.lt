@@ -23,7 +23,7 @@ function Header() {
                 <NavLink href="/">Home</NavLink>
                 <NavLink href="/about">About</NavLink>
                 <NavLink href="https://ftp.bonk.lt">FTP</NavLink>
-                <NavLink href="/contact">Contacts</NavLink>
+                <NavLink href="/contacts">Contacts</NavLink>
             </Navigation>
         </HeaderContainer>
     );

@@ -5,19 +5,19 @@ import About from "./About";
 import Contacts from "./Contacts";
 
 import {
-    GenericSite
+    ContentWrapper
 } from '../styles/Styles';
 
 
 function Site() {
     return (
-        <GenericSite>
+        <ContentWrapper>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contacts" element={<Contacts />} />
             </Routes>
-        </GenericSite>
+        </ContentWrapper>
     );
 }
 

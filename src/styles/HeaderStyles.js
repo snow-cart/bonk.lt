@@ -1,4 +1,3 @@
-// HeaderStyles.js
 import styled from 'styled-components';
 
 export const HeaderContainer = styled.header`
@@ -7,7 +6,6 @@ export const HeaderContainer = styled.header`
   padding-left: 20px;
   padding-bottom: 10px;
   padding-right: 10px;
-  height: 6.5vw;
 `;
 
 export const Title = styled.h1`
