@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-import { FooterContainer } from './FooterStyles';
-import { HeaderContainer } from './HeaderStyles';
+/*import { FooterContainer } from './FooterStyles';
+import { HeaderContainer } from './HeaderStyles';*/
 
 // Doesn't function correctly: can't calculate height of header and footer
 /*
