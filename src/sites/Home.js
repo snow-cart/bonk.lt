@@ -11,7 +11,6 @@ function Home() {
     <div>
       <script/>
         <p>Home</p>
-
     </div>
   );
 }

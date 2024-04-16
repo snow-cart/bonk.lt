@@ -4,7 +4,10 @@ import styled from 'styled-components';
 export const HeaderContainer = styled.header`
   background-color: #333;
   color: #fff;
-  padding: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  height: 6.5vw;
 `;
 
 export const Title = styled.h1`
@@ -34,6 +37,6 @@ export const Logo = styled.img`
 `;
 
 export const TitleContainer = styled.header`
-  padding-top: 15px;
+  padding-top: 5px;
   display: flex;
 `;

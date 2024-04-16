@@ -20,10 +20,10 @@ function Header() {
             <Logo/>
  
             <Navigation>
-                <NavLink href="/">Pagrindinis</NavLink>
-                <NavLink href="/about">Apie</NavLink>
-                <NavLink href="https://ftp.bonk.lt">Saugykla</NavLink>
-                <NavLink href="/contact">Kontaktai</NavLink>
+                <NavLink href="/">Home</NavLink>
+                <NavLink href="/about">About</NavLink>
+                <NavLink href="https://ftp.bonk.lt">FTP</NavLink>
+                <NavLink href="/contact">Contacts</NavLink>
             </Navigation>
         </HeaderContainer>
     );
