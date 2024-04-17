@@ -14,6 +14,4 @@ export const ContentWrapper = styled.div`
 
 // Using custom numbers for now
 export const ContentWrapper = styled.div`
-    margin-top: 60px;
-    margin-bottom: 60px;
 `;

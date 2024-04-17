@@ -13,8 +13,8 @@ export const Title = styled.h1`
 `;
 
 export const Navigation = styled.nav`
-  padding-top: 25px;
   display: flex;
+  flex-direction: row;
 `;
 
 export const NavLink = styled.a`
@@ -35,6 +35,6 @@ export const Logo = styled.img`
 `;
 
 export const TitleContainer = styled.header`
-  padding-top: 5px;
   display: flex;
+  flex-direction: row;
 `;

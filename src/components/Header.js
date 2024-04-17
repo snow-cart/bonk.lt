@@ -17,7 +17,6 @@ function Header() {
                 {/* <Logo src={logo} alt="Bonk.lt Logo"/> */}
                 <Title>Bonk.lt</Title>
             </TitleContainer>
-            <Logo/>
  
             <Navigation>
                 <NavLink href="/">Home</NavLink>

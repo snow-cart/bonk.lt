@@ -1,5 +1,6 @@
 .App {
   display: flex; /* Allow stacking header, main, and footer */
+  flex-direction: column;
   min-height: 100vh;  /* Set minimum height for viewport coverage */
 }
 
@@ -44,9 +45,7 @@
   padding: 20px; /* Add some padding for content */
 }
 
-header, footer {
-  position: fixed; /* Fix header and footer positions */
-  width: 100%;  /* Span the entire width */
+header, footer { /* Fix header and footer positions */
   /* Style header and footer as needed (background, color, etc.) */
 }
 
