@@ -1,17 +1,17 @@
 import React from 'react';
 /*import { 
 
-} from './HomeStyles';*/
+} from './Error404Styles';*/
 import {
 
 } from '../styles/Styles';
 
-function Home() {
+function Error404() {
   return (
     <div>
-        <p>Home</p>
+        <p>Error 404</p>
     </div>
   );
 }
 
-export default Home;
+export default Error404;
