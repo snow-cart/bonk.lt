@@ -1,10 +1,4 @@
 import React from 'react';
-/*import { 
-
-} from './Error404Styles';*/
-import {
-
-} from '../styles/Styles';
 
 function Error404() {
   return (

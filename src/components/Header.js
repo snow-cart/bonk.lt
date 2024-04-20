@@ -1,33 +1,23 @@
 // Header.js
 import React from 'react';
-import { 
-        HeaderContainer,
-        TitleContainer, 
-        Title, 
-        Navigation, 
-        NavLink,
-        // eslint-disable-next-line
-        Logo
-} from '../styles/HeaderStyles';
 
-// eslint-disable-next-line
-import logo from "../images/logo192.png"
+
+import Dropdown from './header/Dropdown';
+import Navigation from './header/Navigation';
+import Title from './header/Title';
 
 function Header() {
     return (
-        <HeaderContainer>
-                <TitleContainer>
-                    {/* <Logo src={logo} alt="Bonk.lt Logo"/> */}
-                    <Title>Bonk.lt</Title>
-                </TitleContainer>
+        <div class="bg-[#333] text-white pl-5 pr-2.5 pb-2.5">
+            
+            <div class="flex flex-row">
+                <Title/>
+                <Dropdown/>
+            </div>
 
-                <Navigation>
-                    <NavLink href="/">Home</NavLink>
-                    <NavLink href="/about">About</NavLink>
-                    <NavLink href="https://ftp.bonk.lt">FTP</NavLink>
-                    <NavLink href="/contacts">Contacts</NavLink>
-                </Navigation>
-        </HeaderContainer>
+            <Navigation/>
+
+        </div>
     );
 }
 

@@ -1,10 +1,4 @@
 import React from 'react';
-/*import { 
-
-} from './AboutStyles';*/
-import {
-
-} from '../styles/Styles';
 
 function About() {
   return (
