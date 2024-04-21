@@ -6,8 +6,6 @@ import Contacts from "./Contacts";
 
 import Error404 from './Error404';
 
-
-
 function Site() {
     return (
             <Routes>
