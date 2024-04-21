@@ -1,5 +1,5 @@
 import React from 'react';
-
+// eslint-disable-next-line
 import logo from "../../images/logo192.png";
 
 function Title() {

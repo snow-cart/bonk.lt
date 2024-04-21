@@ -8,9 +8,9 @@ import Title from './header/Title';
 
 function Header() {
     return (
-        <div class="bg-[#333] text-white pl-5 pr-2.5 pb-2.5">
+        <div className="bg-[#333] text-white pl-5 pr-2.5 pb-2.5">
             
-            <div class="flex flex-row">
+            <div className="flex flex-row">
                 <Title/>
                 <Dropdown/>
             </div>
