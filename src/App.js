@@ -11,10 +11,10 @@ import Site from './sites/index';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App h-screen flex flex-col">
       <Header />
       <Router><Site /></Router>
-      <Footer />
+      <Footer className='mt-auto'/>
     </div>
   );
 }
